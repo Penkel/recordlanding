@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: black;
+}
+
+@layer base {
+  button {
+    @apply bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black;
+  }
+}
