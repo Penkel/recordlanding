@@ -34,7 +34,7 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-bold text-gray-500">
           Почувствуйте себя самым главным светлосветом года
         </p>
-        <button>Начать</button>
+        <button> <a href="https://vk.com/vcentre_club?w=app6013442_-57496873%2523form_id%253D57">Записаться на занятия</a> </button>
       </div>
     </div>
   );

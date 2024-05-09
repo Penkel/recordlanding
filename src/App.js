@@ -9,11 +9,11 @@ export default function App() {
   return (
     <div className="bg-white">
       <Navbar />
-      <Hero />
+      <Hero  />
       <About />
       <Sections />
-      <Footer />
       <HowToFind />
+      <Footer />
     </div>
   )
 }

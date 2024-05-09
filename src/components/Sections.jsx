@@ -96,13 +96,13 @@ class Sections extends Component {
 
     render() {
         return (
-            <Carousel axis='horizontal' >
+            <Carousel className='studios' axis='horizontal' >
                 {this.list.map((item, index) => (
                     <div key={index} className="flex items-center justify-center h-full">
                         <a className='w-full h-full flex flex-col items-center justify-center' href={item.link.url}>
                             <h2 className='absolute top-20 bg-green-500 text-xl  text-white font-bold py-2 px-4 rounded mt-2 my-7'>{item.title}</h2>
                             <img src={require(`../images/sections/${item.image}`)} alt="slide" className="" />
-                            <p className="legend text-lg">{item.text}</p>
+                            <p className=" bg-yellow-300 absolute bottom-12 p-5 text-lg m-4 border border-yellow-500 rounded-lg shadow-lg">{item.text}</p>
                             {/* <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2 my-7 absolute bottom">
                                 {item.link.text}
                             </button> */}

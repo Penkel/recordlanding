@@ -9,6 +9,15 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const scrollToSection = (id) => {
+    const section = document.querySelector(`.${id}`);
+    console.log(section)
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    if (!nav) setNav(!nav)
+  };
+
   return (
     <div className="text-black flex justify-between items-center max-w-[1240px] px-4 h-24 relative z-10">
       <div className="flex items-center">
@@ -18,9 +27,9 @@ const Navbar = () => {
         {/* <h1 className="text-3xl font-bold text-[#00df9a] m-0">Ф133</h1> */}
       </div>
       <ul className="hidden md:flex">
-        <li className="p-4">VHS</li>
-        <li className="p-4">Другие видосы</li>
-        <li className="p-4">О создателях</li>
+        <li className="p-4 text-white bold" onClick={() => scrollToSection("about")}>О нас</li>
+        <li className="p-4 text-white bold" onClick={() => scrollToSection("studios")}>Студии</li>
+        <li className="p-4 text-white bold" onClick={() => scrollToSection("where")}>Как найти</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? <IoMdClose size={40} /> : <MdMenu size={40} />}
@@ -33,9 +42,9 @@ const Navbar = () => {
           <img src={require("./../images/logo.png")} alt="" className="w-full" />
         </div>
         <ul className="pt-24 uppercase p-7">
-          <li className="p-4 border-b border-gray-600">VHS</li>
-          <li className="p-4 border-b border-gray-600">Другие видосы</li>
-          <li className="p-4 border-b border-gray-600">О создателях</li>
+          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('about')}>О нас</li>
+          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('studios')}>Студии</li>
+          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('where')}>Как найти</li>
         </ul>
       </div>
     </div>

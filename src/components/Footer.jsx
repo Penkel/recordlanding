@@ -1,67 +1,56 @@
-import React from 'react'
-import {
-    FaDribbbleSquare,
-    FaFacebookSquare,
-    FaGithubSquare,
-    FaInstagram,
-    FaTwitterSquare
-} from 'react-icons/fa'
-import { SlSocialVkontakte } from "react-icons/sl";
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className="bg-black mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">Светлый свет</h1>
-      <p className='py-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nihil nemo nulla impedit iure ipsam, aspernatur quibusdam neque rerum voluptatem perspiciatis excepturi veniam expedita molestias non enim! Sunt, vitae similique?</p>
-      <div className='flex justify-between md:w-[75%] my-6'>
-        <FaFacebookSquare size={30}/>
-        <FaInstagram size={30}/>
-        <FaTwitterSquare size={30}/>
-        <FaGithubSquare size={30}/>
-        <FaDribbbleSquare size={30}/>
-        <SlSocialVkontakte size={30} />
-      </div>
-      </div>
-      <div className='lg:col-span-2 flex justify-between mt-6'>
-        <div>
-            <h6 className='font-medium text-gray-400'>Решения</h6>
-            <ul>
-                <li className='py-2 text-sm'>Производство</li>
-                <li className='py-2 text-sm'>Маркетинг</li>
-                <li className='py-2 text-sm'>Распространение</li>
-                <li className='py-2 text-sm'>Спонсорство</li>
-            </ul>
-        </div>
-        <div>
-            <h6 className='font-medium text-gray-400'>Поддержка</h6>
-            <ul>
-                <li className='py-2 text-sm'>Цены</li>
-                <li className='py-2 text-sm'>Документация</li>
-                <li className='py-2 text-sm'>Туториалы</li>
-                <li className='py-2 text-sm'>Статусы</li>
-            </ul>
-      </div>
-        <div>
-            <h6 className='font-medium text-gray-400'>Компания</h6>
-            <ul>
-                <li className='py-2 text-sm'>О нас</li>
-                <li className='py-2 text-sm'>Блог</li>
-                <li className='py-2 text-sm'>Вакансии</li>
-                <li className='py-2 text-sm'>Для прессы</li>
-            </ul>
-        </div>
-        <div>
-            <h6 className='font-medium text-gray-400'>Юридическая информация</h6>
-            <ul>
-                <li className='py-2 text-sm'>Устав</li>
-                <li className='py-2 text-sm'>Политика</li>
-                <li className='py-2 text-sm'>Условия</li>
-            </ul>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a]">Ф133</h1>
+        <p className="py-4">
+          ЦЕНТР МОЛОДЁЖНОГО ТВОРЧЕСТВА И СЕМЕЙНОГО ДОСУГА
+        </p>
+        <div className="flex">
+          <div className="w-40">
+            <a href="https://vk.com/dmrecord">
+              <img
+                className="w-full"
+                src={require("../images/record.png")}
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="w-40 ml-4 top-8 relative">
+            <a href="https://vk.com/vcentre_club">
+              <img
+                className="w-full"
+                src={require("../images/logoBNW.png")}
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </div>
-      </div>
-  )
-}
+      <ul className="flex text-lg">
+        <li className="py-3 px-4">
+          <a href="https://vk.com/vcentre_club?z=photo-57496873_457245275%2Falbum-57496873_288027985">
+            Расписание занятий
+          </a>{" "}
+        </li>
+        <li className="py-3 px-4">
+          <a href="https://vk.com/@vcentre_club?z=article_edit-57496873_173270">
+            Забронировать зал
+          </a>
+        </li>
+        <li className="py-3 px-4">
+          <a href="https://vk.com/vcentre_club?w=app6819359_-57496873">
+            Афиша
+          </a>
+        </li>
+        <li className="py-3 px-4">
+          <a href="https://vk.com/albums-57496873">Фотоальбом</a>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
