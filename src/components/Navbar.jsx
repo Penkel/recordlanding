@@ -27,9 +27,9 @@ const Navbar = () => {
         {/* <h1 className="text-3xl font-bold text-[#00df9a] m-0">Ф133</h1> */}
       </div>
       <ul className="hidden md:flex">
-        <li className="p-4 text-white bold" onClick={() => scrollToSection("about")}>О нас</li>
-        <li className="p-4 text-white bold" onClick={() => scrollToSection("studios")}>Студии</li>
-        <li className="p-4 text-white bold" onClick={() => scrollToSection("where")}>Как найти</li>
+        <li className="p-4 text-xl text-white bold" onClick={() => scrollToSection("about")}>О нас</li>
+        <li className="p-4 text-xl text-white bold" onClick={() => scrollToSection("studios")}>Студии</li>
+        <li className="p-4 text-xl text-white bold" onClick={() => scrollToSection("where")}>Как найти</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? <IoMdClose size={40} /> : <MdMenu size={40} />}
@@ -42,9 +42,9 @@ const Navbar = () => {
           <img src={require("./../images/logo.png")} alt="" className="w-full" />
         </div>
         <ul className="pt-24 uppercase p-7">
-          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('about')}>О нас</li>
-          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('studios')}>Студии</li>
-          <li className="p-4 text-white bold border-b border-gray-600" onClick={() => scrollToSection('where')}>Как найти</li>
+          <li className="p-4 text-xl text-white bold border-b border-gray-600" onClick={() => scrollToSection('about')}>О нас</li>
+          <li className="p-4 text-xl text-white bold border-b border-gray-600" onClick={() => scrollToSection('studios')}>Студии</li>
+          <li className="p-4 text-xl text-white bold border-b border-gray-600" onClick={() => scrollToSection('where')}>Как найти</li>
         </ul>
       </div>
     </div>
