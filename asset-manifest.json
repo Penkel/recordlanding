@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/recordlanding/static/css/main.863511bb.css",
-    "main.js": "/recordlanding/static/js/main.1ded11f0.js",
+    "main.css": "/recordlanding/static/css/main.e9bfb723.css",
+    "main.js": "/recordlanding/static/js/main.5139cf67.js",
     "static/media/dvormap.png": "/recordlanding/static/media/dvormap.997cb7d23fe0554fd571.png",
     "static/media/prommap.png": "/recordlanding/static/media/prommap.15db905083549c915e35.png",
     "static/media/eng-club.jpg": "/recordlanding/static/media/eng-club.510c152cd73378839616.jpg",
@@ -25,17 +25,16 @@
     "static/media/logo.png": "/recordlanding/static/media/logo.e18ff7a5dace139ef9d6.png",
     "static/media/dance.jpg": "/recordlanding/static/media/dance.13f729d4831a6d7d215f.jpg",
     "static/media/record.png": "/recordlanding/static/media/record.5ab9a47da425e1be8ede.png",
-    "static/media/record.jpg": "/recordlanding/static/media/record.a4b4df152228eee5221e.jpg",
     "static/media/dvorBNW.png": "/recordlanding/static/media/dvorBNW.b513ecf20358ae2a4c34.png",
     "static/media/dvor.png": "/recordlanding/static/media/dvor.10dfe4dae964cb4b2414.png",
     "static/media/promBNW.png": "/recordlanding/static/media/promBNW.5f1a0aebaa8ca90e1419.png",
     "static/media/logoBNW.png": "/recordlanding/static/media/logoBNW.e651e6f66d63d809f7a3.png",
     "index.html": "/recordlanding/index.html",
-    "main.863511bb.css.map": "/recordlanding/static/css/main.863511bb.css.map",
-    "main.1ded11f0.js.map": "/recordlanding/static/js/main.1ded11f0.js.map"
+    "main.e9bfb723.css.map": "/recordlanding/static/css/main.e9bfb723.css.map",
+    "main.5139cf67.js.map": "/recordlanding/static/js/main.5139cf67.js.map"
   },
   "entrypoints": [
-    "static/css/main.863511bb.css",
-    "static/js/main.1ded11f0.js"
+    "static/css/main.e9bfb723.css",
+    "static/js/main.5139cf67.js"
   ]
 }
