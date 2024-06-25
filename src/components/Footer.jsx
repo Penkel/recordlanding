@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-black mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">Ф133</h1>
+        <h1 className="w-full text-3xl font-bold text-[#b6b6b6]">Дом молодежи Рекорд</h1>
         <p className="py-4">
           ЦЕНТР МОЛОДЁЖНОГО ТВОРЧЕСТВА И СЕМЕЙНОГО ДОСУГА
         </p>
@@ -23,6 +23,24 @@ const Footer = () => {
               <img
                 className="w-full"
                 src={require("../images/logoBNW.png")}
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="w-40">
+            <a href="https://vk.com/pmk_r">
+              <img
+                className="w-full"
+                src={require("../images/dvorBNW.png")}
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="w-40">
+            <a href="https://vk.com/pmk_pro">
+              <img
+                className="w-full"
+                src={require("../images/promBNW.png")}
                 alt=""
               />
             </a>
