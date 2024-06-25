@@ -10,10 +10,6 @@ const Navbar = ({ setClub }) => {
     setNav(!nav);
   };
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
-
   const changeClubHere = (name) => {
     setClub(name);
   };

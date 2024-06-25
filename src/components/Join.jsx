@@ -1,5 +1,4 @@
 import React from 'react';
-import Laptop from '../images/logo.png';
 
 const Join = ({ club }) => {
 
@@ -56,14 +55,14 @@ const Join = ({ club }) => {
       <div className='max-w-[1240px] grid md:grid-cols-1'>
         <div className='flex flex-col justify-center items-center'>
           <p className={`${getTextColor()} font-bold`}>Мы ждём тебя!</p>
-          <h1 className={`md:text-4xl sm:text-3xl text-4xl font-bold py-2 ${getHeadingTextColor()}`}>Записывайся к нам на занятия!</h1>
+          <h1 className={`text-center md:text-4xl sm:text-3xl text-4xl font-bold py-2 ${getHeadingTextColor()}`}>Записывайся к нам на занятия!</h1>
           <p className='mt-4'></p>
         </div>
-        <div className='flex justify-center items-center'>
-          <button className='bg-[#00df9a] w-[200px] border rounded-md font-medium my-6 mx-4 mx-auto py-3 text-black'>
+        <div className='flex flex-col md:flex-row justify-center items-center'>
+          <button className='bg-[#00df9a] w-[200px] border rounded-md font-medium my-2 md:my-6 mx-4 mx-auto py-3 text-black'>
             <a href={getLink()}>Записаться в студию</a>
           </button>
-          <button className='bg-white w-[200px] border rounded-md font-medium my-6 mx-4 mx-auto py-3 text-black'>
+          <button className='bg-white w-[200px] border rounded-md font-medium my-2 md:my-6 mx-4 mx-auto py-3 text-black'>
             <a href="https://vk.com/dmrecord">Подписаться на Рекорд</a>
           </button>
         </div>
